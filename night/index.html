@@ -1,0 +1,265 @@
+﻿<!DOCTYPE html>
+<head lang="pt-BR">
+	<meta name="author" content="Vinícius Junkes Albuquerque Almeida">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>VJAA | Phonebook</title>
+		<meta name="application-name" content="vjaa">
+		<meta name="description" content="Portfólio profissional de Vinícius J. A. Almeida.">	
+
+	<link rel="canonical" href="webdebra/rrd_codegr/vjaa/">
+	<link rel="alternate" hreflang="pt-BR" href="webdebra/rrd_codegr/vjaa/en">
+    	<link rel="stylesheet" type="text/css" href="css/pb_n_style.css">
+    	<link rel="stylesheet" type="text/css" href="css/post-it.css">
+    	<link rel="stylesheet" type="text/css" href="css/cadForm.css">
+
+	    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Reenie+Beanie" rel="stylesheet">
+	    <link rel="icon" href="img/pb_icon.png" size="32x32">
+	    <link rel="shortcut icon" sizes="32x32" href="img/pb_icon.png">
+
+	<meta property="og:title" content="VJAA | Phonebook">
+	<meta property="og:description" content="by Portfólio Profissional de Vinícius J. A. Almeida.">
+
+	<meta property="og:image:width" content="1440">
+	<meta property="og:image:height" content="1440">
+	<meta property="og:locale" content="en">
+	<meta property="og:site_name" content="VJAA">
+	<meta property="og:locale" content="pt_BR">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="webdebra/rrd_codegr/vjaa/">
+
+	<meta name="theme-color" content="#009bdb">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+</head>
+<body onload="dds()">
+  <div id="notebook">
+    <div class="airo">
+      <div id="o_airo"></div>
+        <div id="b_airo"></div>
+      <div id="o_airo"></div>
+        <div id="b_airo"></div>
+      <div id="o_airo"></div>
+        <div id="b_airo"></div>
+      <div id="o_airo"></div>
+        <div id="b_airo"></div>
+      <div id="o_airo"></div>
+        <div id="b_airo"></div>
+      <div id="o_airo"></div>
+        <div id="b_airo"></div>
+      <div id="o_airo_l"></div>
+        <div id="b_airo_l"></div>
+    </div>
+    <div id="content">				
+							
+      <ul id="myUL">
+        <li class="accordion" id="emergency"><a style="color: white" href="#" id="a_emerg">LOCAL | EMERGÊNCIA - 0000 <p id="lost">LOCAL SOS</p></a></li>
+          <div class="panel">
+            <p>Ramal&nbsp<span id="destaca">0000</span></p>
+	    <p>Bombeiros&nbsp<span id="destaca">193</span></p>
+	    <p>PM&nbsp<span id="destaca">190</span></p>
+	    <p>Samu&nbsp<span id="destaca">192</span></p>
+	    <p>Setor&nbsp<span id="destaca">Portaria</span></p>
+            <p>Obs.&nbsp<span id="destaca">Ao ligar, mantenha calma, seja breve e tenha clareza em reportar a ocorrência.</span></p>
+          </div>
+<div id="lost"></div>
+	  <p id="section">| LOCAL</p>	
+          
+	   <li class="accordion"><a href="index.html#"> Recepção <span class="tag">0001</span><p id="lost">0001 Blumenau</p></a></li>
+            <div class="panel">
+		<img id="perfil" src="img/pb_icon.png" alt=""/>
+              <p>Ramal&nbsp<span id="destaca">0001</span></p>
+              <p>E-mail&nbsp<span id="destaca">vinicius.jaa99@gmail.com</span></p>
+              <p>Setor&nbsp<span id="destaca"> Telefonista </span></p>
+              <p>Planta&nbsp<span id="destaca">Blumenau</span></p>
+	      <div class="icones">
+		<a target="_blank" href="https://mail.google.com/mail/u/0/?hl=pt-BR&view=cm&tf=1&fs=1&to=vinicius.jaa99%40gmail.com" title="Mandar e-mail agora">
+			<img src="img/gmail.png" id="iconizin" alt=""/>
+		</a>
+              </div>
+            </div>
+	  
+          <li class="accordion"><a href="#perfil"> Vinícius <span class="tag">4041</span><p id="lost">984471288 Blumenau</p></a></li>
+            <div class="panel">
+	      <img id="perfil" src="https://lh3.googleusercontent.com/a-/AAuE7mDU8rAO3eSr4BkT0lnwB4wO9WzAONTcYLPpyYVD06E=s80-p-k-rw-no" alt=""/>
+              <p>Celular&nbsp<span id="destaca"> +55 47 984 471 288 </span></p>
+              <p>Setor&nbsp<span id="destaca">Indisponível</span></p>
+              <p>Planta&nbsp<span id="destaca">Blumenau</span></p>
+	      <div class="icones">
+		<a target="_blank" href="https://mail.google.com/mail/u/0/?hl=pt-BR&view=cm&tf=1&fs=1&to=vinicius.jaa99%40gmail.com" title="Mandar e-mail agora">
+			<img src="img/gmail.png" id="iconizin" alt=""/>
+		</a>
+              </div>
+            </div>
+
+      </ul>
+    </div>
+  </div>
+
+
+  <a href="index.html" title="Recarregar página"><img class="rrd" src="img/phonebook_logo.png" alt="rrd"/></a>
+  <div class="ipt">
+	<input autofocus type="text" id="myInput" onkeyup="pesquisa()" placeholder="Busque por nomes, ramais ou setores" title="Busque aqui">
+<div class="postit" id="dds" style="display: none;">Hoje tem DDS :)</div>
+  </div>
+  <div class="tips">
+	<h2>DICAS | </h2>
+<!---	<a href="operacoes.html" target="_blank">Operações úteis ></a> <br> -->
+	<a id="opt" onclick="document.getElementById('id01').style.display='block'" href="#"> Saiba como criar um atalho do sistema :) </a>
+<br/><br/><br/>
+<!---	<a href="operacoes.html" target="_blank">Operações úteis ></a> <br> -->
+	<a id="opt" onclick="document.getElementById('id02').style.display='block'" href="#"> Manual de ligações > </a>
+	<br/><br/><br/>
+	<a id="opt" href="night/index.html"> Night </a>
+
+<div id="opts">
+      <p>Atalhos</p>
+      <a id="opt" target="_blank" href="#">INTRANET</a>
+      <a id="opt" target="_blank" href="https://mail.google.com">GMAIL</a>
+      <a id="opt" target="_blank" href="https://hangouts.google.com/">HANGOUTS</a>
+  </div>
+  </div>
+
+
+<a onclick="document.getElementById('myInput').value='';document.getElementById('myInput').value=' ';" href="index.html" title="Clique para apagar">
+<img id="eraser" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MDQuMTIzIDUwNC4xMjMiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUwNC4xMjMgNTA0LjEyMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+CjxwYXRoIHN0eWxlPSJmaWxsOiNFMjU3NEM7IiBkPSJNMTc4LjAxOCw0OTcuMDM0TDcuMDg5LDMyNi4xMDVjLTkuNDUyLTkuNDUyLTkuNDUyLTI0LjgxMiwwLTM0LjI2NUwyOTEuODQsNy4wODkgIGM5LjQ1Mi05LjQ1MiwyNC44MTItOS40NTIsMzQuMjY1LDBsMTcwLjkyOSwxNzAuOTI5YzkuNDUyLDkuNDUyLDkuNDUyLDI0LjgxMiwwLDM0LjI2NUwyMTIuMjgzLDQ5Ny4wMzQgIEMyMDIuODMxLDUwNi40ODYsMTg3LjQ3MSw1MDYuNDg2LDE3OC4wMTgsNDk3LjAzNHoiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0I1NDYzRDsiIGQ9Ik0yMTIuMjgzLDQ5Ny4wMzRsNDYuMDgtNDYuMDhDMjU3LjE4Miw0NDguMTk3LDU2LjMyLDI0Ni45NDIsNTMuMTY5LDI0NS43NmwtNDYuMDgsNDYuMDggIGMtOS40NTIsOS40NTItOS40NTIsMjQuODEyLDAsMzQuMjY1bDE3MC45MjksMTcwLjkyOUMxODcuNDcxLDUwNi40ODYsMjAyLjgzMSw1MDYuNDg2LDIxMi4yODMsNDk3LjAzNHoiLz4KPHBhdGggc3R5bGU9ImZpbGw6IzIwOERCMjsiIGQ9Ik0zMjYuMTA1LDcuMDg5Yy05LjQ1Mi05LjQ1Mi0yNC44MTItOS40NTItMzQuMjY1LDBMMTY2LjU5NywxMzIuMzMybDIwNS4xOTQsMjA1LjE5NGwxMjUuMjQzLTEyNS4yNDMgIGM5LjQ1Mi05LjQ1Miw5LjQ1Mi0yNC44MTIsMC0zNC4yNjVMMzI2LjEwNSw3LjA4OXoiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0RDQkJCODsiIGQ9Ik0yMzIuMTQ1LDQ3Ny4wNDJsLTExLjEzOCwxMS4xMzhMMTYuMDM3LDI4My4yMTFsMTEuMTM4LTExLjEzOEwyMzIuMTQ1LDQ3Ny4wNDJ6Ii8+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
+</a>
+
+
+
+<div class="rodape">
+	<p>ERRO? Reporte <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=%22Vinicius%20Junkes%20Albuquerque%20Almeida%22%20%3Cviniciusjunkes.albuquerquealmeida%40rrd.com%3E" title="E-mail report"> clicando aqui. </a> <br> Alpha Version by Vinícius J | V 09:53 08/01/2019</p>
+</div>
+
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Fechar">&times;</span>
+  <div class="modal-content" action="#">
+    <div class="container">
+      <h1>Como criar um atalho</h1>
+      <p>Crie um atalho do site na área de trabalho</p>
+      <hr>
+      <img id="img_atalho" src="img/atalho.png" alt="Indisponível"/>
+
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn"> Fechar </button>        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="id02" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Fechar">&times;</span>
+  <div class="modal-content" action="#">
+    <div class="container">
+      <h1>Operações</h1>
+      <p>Captura de chamada geral <b>* 63</b>           </br>
+	 Captura de chamada ramal específico <b> * 64 * RAMAL #</b> </br>
+	 Efeturar Ligações Externas <b>0 NÚMERO EXT. </b>  </br>
+	 Efeturar Ligações para Osasco <b> 10 10 NÚMERO EXT. </b>  </br>
+	 Efeturar Ligações para Tamboré <b> 10 14 NÚMERO EXT. </b>  </br>
+	 Efeturar Ligações para Celular <b>12 015 DDD CELULAR </b> </br>
+	 Transferência de Ligações <b> FLASH + RAMAL </b> </br>
+	 Conferência </br>
+	 <b> Num.A + Gancho + *47 Gancho + Num.B + Gancho + *47 </b> </br>
+      </p>
+      <hr>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn"> Fechar </button>        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+
+function inclui(){
+	ul = document.getElementById("myUL");
+	ul.document.getElementsByName("nome").innerHTML = ul.document.getElementsByName("nome").value;
+}
+
+</script>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<script>
+	function dds() {
+		var d = new Date();
+	    if (d.getDay() == 4) {		
+		document.getElementById("dds").style.display = "block";
+	    }else{
+		document.getElementById("dds").style.display = "none";
+	    }
+	}
+
+</script>
+
+  <script>
+    function pesquisa() {
+        var input, filter, ul, li, a, i, j, pnl;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName("li");
+        pnl = document.getElementsByClassName("panel");
+              //var div = document.getElementsByClassName("panel");
+        for (j = 0; j < pnl.length; j++) {
+		pnl[j].style.display = "none";
+}
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+
+            if (a.innerHTML.toUpperCase().indexOf(filter) > -1)  {
+                li[i].style.display = "";
+
+            } else {
+                li[i].style.display = "none";
+		
+            }
+        }
+	
+    }
+  </script>
+  <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.display === "block") {
+                  panel.style.display = "none";
+              } else {
+                  panel.style.display = "block";
+              }
+          });
+      }
+	function changeCSS(cssFile, cssLinkIndex) {
+
+    var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+
+    var newlink = document.createElement("link");
+    newlink.setAttribute("rel", "stylesheet");
+    newlink.setAttribute("type", "text/css");
+    newlink.setAttribute("href", cssFile);
+
+    document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+}
+  </script>
+</body>
+</html>

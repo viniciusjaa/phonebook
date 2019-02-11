@@ -1,0 +1,299 @@
+/* pb_n_style.css*/
+body{
+  background-color: #5d5d5d;
+  overflow: scroll;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+#notebook {
+  background-color: #7c7c7c;
+  min-height: 400px;
+  margin-bottom: 100px;
+
+  margin-top: 100px;
+  max-width: 450px;
+
+  /*margin-left: 50px;*/
+  position: relative;
+  left: 50%;
+  z-index: 1;
+  box-shadow: 2px 2px 10px rgba(0,0,0, 0.2);
+  /*font-family: 'Patrick Hand SC', cursive;*/
+  font-style: bold;
+}
+#lost {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+.airo {
+  position: relative;
+  top: -20px;
+  left: -10px;
+
+}
+#o_airo, #o_airo_l{
+  border-radius: 5px;
+  height: 40px;
+  width: 9px;
+  background-color: #acacac;
+  float: left;
+  margin-left: 49px;
+  position: relative;
+  z-index: 3;
+}
+#b_airo, #b_airo_l {
+  border-radius: 50px;
+  height: 15px;
+  width: 15px;
+  background-color: #282828;
+  float: left;
+  margin-left: -12px;
+    position: relative;
+    top: 29px;
+    z-index: 2;
+  box-shadow: inset 2px 2px 5px rgba(0,0,0, 0.2);
+}
+.ipt {
+  min-width: 400px;
+  min-height: 50px;
+  position: absolute;
+    top: 50%;
+    right: 49%;
+  float: right;
+	animation-duration: 1.3s;
+	animation-name: wow;
+  z-index: 0;
+}
+@keyframes wow {
+    0%   {right: 15%; } 
+    100% {right: 49%;}
+}
+
+
+#myInput {
+  background-image: url('data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMS4xLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDI1MC4zMTMgMjUwLjMxMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjUwLjMxMyAyNTAuMzEzOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CjxnIGlkPSJTZWFyY2giPgoJPHBhdGggc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkOyIgZD0iTTI0NC4xODYsMjE0LjYwNGwtNTQuMzc5LTU0LjM3OGMtMC4yODktMC4yODktMC42MjgtMC40OTEtMC45My0wLjc2ICAgYzEwLjctMTYuMjMxLDE2Ljk0NS0zNS42NiwxNi45NDUtNTYuNTU0QzIwNS44MjIsNDYuMDc1LDE1OS43NDcsMCwxMDIuOTExLDBTMCw0Ni4wNzUsMCwxMDIuOTExICAgYzAsNTYuODM1LDQ2LjA3NCwxMDIuOTExLDEwMi45MSwxMDIuOTExYzIwLjg5NSwwLDQwLjMyMy02LjI0NSw1Ni41NTQtMTYuOTQ1YzAuMjY5LDAuMzAxLDAuNDcsMC42NCwwLjc1OSwwLjkyOWw1NC4zOCw1NC4zOCAgIGM4LjE2OSw4LjE2OCwyMS40MTMsOC4xNjgsMjkuNTgzLDBDMjUyLjM1NCwyMzYuMDE3LDI1Mi4zNTQsMjIyLjc3MywyNDQuMTg2LDIxNC42MDR6IE0xMDIuOTExLDE3MC4xNDYgICBjLTM3LjEzNCwwLTY3LjIzNi0zMC4xMDItNjcuMjM2LTY3LjIzNWMwLTM3LjEzNCwzMC4xMDMtNjcuMjM2LDY3LjIzNi02Ny4yMzZjMzcuMTMyLDAsNjcuMjM1LDMwLjEwMyw2Ny4yMzUsNjcuMjM2ICAgQzE3MC4xNDYsMTQwLjA0NCwxNDAuMDQzLDE3MC4xNDYsMTAyLjkxMSwxNzAuMTQ2eiIgZmlsbD0iI2FjYWNhYyIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=');
+  background-position: 10px 10px;  background-repeat: no-repeat;
+  max-width: 500px;  min-width: 350px;
+  position: relative;
+
+  padding: 12px 20px 12px 40px;
+  border: 0px;  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(3,3,3, 0.25);
+
+  font-size: 16px;
+  transition: 0.4s;
+}
+  #myInput:hover{
+    box-shadow: 2px 2px 10px rgba(3,3,3, 0.35);
+  }
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+  #myUL li a {
+    /*border: 1px solid #ddd;*/
+    margin-top: -1px; /* Prevent double borders */
+
+    padding: 12px;
+	height: 18px;
+    text-decoration: none;
+    text-overflow: clip;
+    font-size: 16px;
+    color: #fafafa;
+    display: block
+	
+  }
+  #myUL li a:hover:not(.header) {
+    background-color: rgba(0,0,0,0.1);
+  }
+#destaca {
+
+  /*font-family: 'Patrick Hand SC', cursive;*/
+  font-weight: 600;
+}
+
+
+.accordion, #emergency {
+  height: 55px;
+  overflow: hidden;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+#emergency {
+  font-weight: 700;
+  background-color: #ff8484;
+  
+}
+
+#perfil {
+	height: 40px;
+	width: 40px;
+	float: left;
+	padding: 2px;
+	margin: 0;
+	border: 2px solid #fafafa;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+	margin-right: 10px;
+	background-color: #fafafa;
+}
+
+#emergency:hover {
+  font-weight: 700;
+  background-color: #f27979;
+  
+}
+
+#a_emerg:hover {
+  font-weight: 700;
+  background-color: #f27979;
+  
+}
+
+#section {
+	text-indent: 50px;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.panel {
+  padding: 0 18px;
+	
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  transition: 1.4s;
+  font-family: 'Montserrat', sans-serif;
+  color: #515151;
+
+}
+
+.rrd{
+  max-width: 330px;
+  position: absolute;
+  top: 37%;
+  margin-left : 20%;
+	animation-duration: 1s;
+	animation-name: wow2;
+  
+}
+@keyframes wow2 {
+    0%   {left: 30%; } 
+    100% {left: 0;}
+}
+
+#opts{
+  text-align: center;
+	
+}
+
+#opt {
+  padding: 10px 30px;
+  margin: 10px;
+  background-color: #009bdb;
+  color: #fafafa;
+  text-decoration: none;
+  transition: 0.4s;
+	margin: 0;
+
+
+}
+#opt:hover {
+  box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+  font-style: bold;
+}
+
+.tips {
+	
+	position: absolute;
+	top: 58%;
+	right: 52%;
+	float: right;
+	font-size: 12px;
+	text-align: right;	
+	z-index: 1;
+	color: #515151;
+}
+
+h2 {
+	text-align: right;
+	font-size: 16px;
+}
+
+#eraser {
+	width: 6%;
+	height: 6%;
+	position: relative;
+	top: -150px;
+	left: 150px;
+	border-radius: 20px;
+	background-color: rgba(0,0,0,0.07);
+	box-shadow: 1px 1px 130px rgba(0,0,0,0.2);	
+}
+.icones {
+	position: relative;
+	top: -150px;
+	left: 80%;
+	max-width: 32px;
+	margin-bottom: -105px;
+	min-height: 100px;
+}
+
+#iconizin {
+	height: 32px; width: 32px;
+	transition: 1s;
+	padding: 10px;	
+	margin-left: 90%;
+}
+
+
+#iconizin:hover {
+	border-radius: 20px;
+	box-shadow:0px 0px 5px rgba(0,0,0,0.3);
+}
+
+.tag {
+	padding: 2px 5px;
+	color: #fafafa;
+	background-color: #aaaaaa;
+	position: absolute;
+	right: 0%;
+left: 78%;
+}
+
+.rodape {
+	color: #a8a8a8;
+	font-size: 9pt;
+	max-width: 350px;
+	text-align: center;
+	margin: auto;
+
+}
+
+
+@media only screen and (max-width: 1070px) {
+    .rrd {
+        margin-left : 10%;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    #notebook {
+        max-width: 400px;
+    }
+
+    #b_airo_l, #o_airo_l {
+      display:none;
+    }
+	.tag {
+		left: 67.4%;
+	}
+}
